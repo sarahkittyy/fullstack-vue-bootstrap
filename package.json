@@ -7,7 +7,7 @@
     "frontend": "vue-cli-service serve",
 	"backend": "tsc-watch --onSuccess 'node build/backend/index.js'",
 	"serve": "pm2-runtime start pm2.config.json",
-    "dev": "docker-compose up -d",
+    "dev": "docker-compose up",
     "debug": "docker exec -it app bash",
 	"update-deps": "docker exec app npm install"
   },
