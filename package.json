@@ -16,6 +16,7 @@
     "vue": "^2.6.11",
     "vue-headful": "^2.1.0",
     "vue-property-decorator": "^8.4.1",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.1.3"
   }
 }

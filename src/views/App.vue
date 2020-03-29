@@ -8,18 +8,20 @@
 
 <script>
 
+import { mapState, mapMutations } from 'vuex';
+
 export default {
 	name: 'App',
-	data() {
-		return {
-			message: 'Hai, Vue!',
+	computed: {
+		message() {
+			return this.$store.state.message;
 		}
 	},
 	methods: {
-		reverse () {
-			this.message = this.message.split('').reverse().join('');
-		}
-	}
+		...mapMutations([
+			'reverse',
+		]),
+	},
 }
 
 </script>
