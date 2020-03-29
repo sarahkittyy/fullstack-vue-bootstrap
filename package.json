@@ -1,5 +1,5 @@
 {
-  "name": "hello-vue-ts",
+  "name": "vue-bootstrap-fullstack",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
@@ -8,18 +8,19 @@
   },
   "author": "Sarah Ohlin",
   "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@popperjs/core": "^2.1.1",
     "@vue/cli-service": "^4.2.3",
-    "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.9.0",
-    "node-sass": "^4.13.1",
-    "sass-loader": "^8.0.2",
-    "typescript": "^3.8.3",
-    "vue": "^2.6.11",
     "vue-headful": "^2.1.0",
+    "sass-loader": "^8.0.2",
     "vue-property-decorator": "^8.4.1",
-    "vue-template-compiler": "^2.6.11",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "node-sass": "^4.13.1",
+    "vue": "^2.6.11",
     "vuex": "^3.1.3"
   }
 }
