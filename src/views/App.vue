@@ -3,6 +3,12 @@
 	<vue-headful title="hi vue homepage" />
 	<p> {{ message }} </p>
 	<button @click="reverse">click me </button>
+	<div class="center">
+		<b-card
+			title="card title">
+			<b-card-text>hello</b-card-text>
+		</b-card>
+	</div>
 </div>
 </template>
 
@@ -33,6 +39,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+@import '../styles/common.scss';
+
+.center {
+	width: 30%;
+	margin: auto;
+}
 
 p {
 	color: #333;
