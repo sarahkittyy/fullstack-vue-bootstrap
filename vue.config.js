@@ -2,8 +2,8 @@ module.exports = {
 	outputDir: 'build',
 	pages: {
 		index: {
-			entry: 'src/index.js',
-			template: 'src/index.html',
+			entry: 'src/frontend/index.js',
+			template: 'src/frontend/index.html',
 			title: 'Untitled',
 		}
 	},
