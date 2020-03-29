@@ -1,4 +1,4 @@
-# vue-bootstrap-fulsstack
+# vue-bootstrap-fullstack
 
 Just a personal test of a fullstack vue app kinda thing :)
 
