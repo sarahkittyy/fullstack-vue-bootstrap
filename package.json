@@ -5,11 +5,11 @@
   "main": "src/index.js",
   "scripts": {
     "frontend": "vue-cli-service serve",
-	"backend": "tsc-watch --onSuccess 'node build/backend/index.js'",
-	"serve": "pm2-runtime start pm2.config.json",
+    "backend": "tsc-watch --onSuccess 'node build/backend/index.js'",
+    "serve": "pm2-runtime start pm2.config.json",
     "dev": "docker-compose up",
     "debug": "docker exec -it app bash",
-	"update-deps": "docker exec app npm install"
+    "update-deps": "docker exec app npm install"
   },
   "author": "Sarah Ohlin",
   "license": "MIT",
@@ -21,8 +21,8 @@
     "@vue/cli-service": "^4.2.3",
     "app-root-path": "^3.0.0",
     "bootstrap-vue": "^2.9.0",
-	"dotenv": "^8.2.0",
-	"pm2": "^4.2.3",
+    "dotenv": "^8.2.0",
+    "pm2": "^4.2.3",
     "express": "^4.17.1",
     "sass-loader": "^8.0.2",
     "tsc-watch": "^4.2.3",
@@ -35,6 +35,7 @@
     "bootstrap": "^4.4.1",
     "node-sass": "^4.13.1",
     "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
     "vuex": "^3.1.3"
   }
 }

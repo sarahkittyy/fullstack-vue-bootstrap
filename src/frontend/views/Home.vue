@@ -7,7 +7,7 @@
 		<b-card
 			title="card title"
 			class="shadow-lg">
-			<b-card-text>hello >w<</b-card-text>
+			<b-card-text>hello"</b-card-text>
 		</b-card>
 	</div>
 </div>
@@ -18,7 +18,7 @@
 import { mapState, mapMutations } from 'vuex';
 
 export default {
-	name: 'App',
+	name: 'Home',
 	computed: {
 		/*...mapState([
 			message
