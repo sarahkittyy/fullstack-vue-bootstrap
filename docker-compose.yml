@@ -9,3 +9,5 @@ services:
      - ./:/workspace
      - /workspace/node_modules
     entrypoint: ["npm", "run", "serve"]
+  db:
+    image: mongo:3.6.17-xenial

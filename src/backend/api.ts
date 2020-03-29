@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+import './db/init';
 
 const api = express.Router();
 
