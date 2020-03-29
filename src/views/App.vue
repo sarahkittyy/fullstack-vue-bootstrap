@@ -13,14 +13,20 @@ import { mapState, mapMutations } from 'vuex';
 export default {
 	name: 'App',
 	computed: {
+		/*...mapState([
+			message
+		]),*/
 		message() {
 			return this.$store.state.message;
 		}
 	},
 	methods: {
-		...mapMutations([
+		/*...mapMutations([
 			'reverse',
-		]),
+		]),*/
+		reverse() {
+			this.$store.commit('reverse');
+		}
 	},
 }
 
