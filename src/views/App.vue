@@ -5,7 +5,8 @@
 	<button @click="reverse">click me </button>
 	<div class="center">
 		<b-card
-			title="card title">
+			title="card title"
+			class="shadow-lg">
 			<b-card-text>hello</b-card-text>
 		</b-card>
 	</div>
