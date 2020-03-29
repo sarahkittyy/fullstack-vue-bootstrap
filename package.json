@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "serve": "vue-cli-service serve"
+	"serve": "vue-cli-service serve",
+	"dev": "docker-compose up -d",
+	"debug": "docker attach frontend"
   },
   "author": "Sarah Ohlin",
   "license": "MIT",

@@ -2,7 +2,7 @@
 <div>
 	<vue-headful title="hi vue homepage" />
 	<p> {{ message }} </p>
-	<button @click="reverse">click me </button>
+	<button @click="reverse">click me?</button>
 	<div class="center">
 		<b-card
 			title="card title"
