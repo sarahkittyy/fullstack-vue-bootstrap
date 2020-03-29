@@ -1,5 +1,5 @@
 module.exports = {
-	outputDir: 'build',
+	outputDir: 'build/frontend',
 	pages: {
 		index: {
 			entry: 'src/frontend/index.js',
@@ -9,6 +9,12 @@ module.exports = {
 	},
 	runtimeCompiler: true,
 	devServer: {
-		port: '8000',
+		port: 8000,
+		proxy: {
+			'/': {
+				target: 'http://0.0.0.0:3000',
+			},
+		},
+		writeToDisk: true,
 	}
 }

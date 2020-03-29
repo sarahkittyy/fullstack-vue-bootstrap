@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"outDir": "build/backend"
+	},
+	"include": [
+		"src/backend"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
